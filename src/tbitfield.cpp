@@ -12,8 +12,8 @@
 static const int FAKE_INT = -1;
 static TBitField FAKE_BITFIELD(1);
 
-static const int bitsInElem = 8;
-static const int shiftSize = 3;
+static const int bitsInElem = 32;
+static const int shiftSize = 5;
 
 TBitField::TBitField(int len)
 {
